@@ -1,0 +1,27 @@
+Source: cgdb
+Section: devel
+Priority: optional
+Maintainer: Robert Lemmen <robertle@semistable.com>
+Build-Depends: debhelper (>= 7.0.0), automake, flex, texinfo, help2man, libncurses5-dev, libncursesw5-dev, libreadline-dev ( >> 5.1)
+Standards-Version: 3.8.3
+
+Package: cgdb
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, gdb, dpkg (>= 1.15.4) | install-info
+Homepage: http://cgdb.sourceforge.net/
+Description: a curses-based interface to the GNU Debugger (GDB)
+ CGDB is a curses  fontend to the GNU Debugger (GDB). The goal of CGDB is
+ to be lightweight and responsive; not encumbered with unnecessary features.
+ .
+ The interface is designed to deliver the familiar GDB text interface, with a
+ split screen showing the source as it executes. The UI is modeled on the
+ classic Unix text editor, vi. Those familiar with vi should feel right at home
+ using CGDB.
+ .
+ Some features offered by CGDB are:
+   * Syntax-highlighted source window
+   * Visual breakpoint setting
+   * Keyboard shortcuts for common functions
+   * Searching source window (using regexp)
+
+				

@@ -1,0 +1,161 @@
+cgdb (0.6.7-6) unstable; urgency=low
+
+  * New upstream release.
+  * Fix configure options in debian/rules
+  * Add help2man, texinfo, flex, automake to deb Build-Depends
+
+ -- Like Ma <likemartinma@gmail.com>  Fri, 15 Mar 2013 13:03:08 +0800
+
+cgdb (0.6.5-3.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Add build-dependency on libncurses5-dev. (Closes: #651565)
+
+ -- Ansgar Burchardt <ansgar@debian.org>  Fri, 23 Dec 2011 13:52:10 +0100
+
+cgdb (0.6.5-3) unstable; urgency=low
+
+  * Extra include to avoid implicit pointer conversion (closes: #564000)
+  * variable rename in a perhaps futila attempt to fix FTBFS on mips(el)
+
+ -- Robert Lemmen <robertle@semistable.com>  Thu, 07 Jan 2010 16:01:13 +0000
+
+cgdb (0.6.5-2) unstable; urgency=low
+
+  * Fix FTBFS related to info dir (closes: #563666)
+
+ -- Robert Lemmen <robertle@semistable.com>  Tue, 05 Jan 2010 15:10:16 +0000
+
+cgdb (0.6.5-1) unstable; urgency=low
+
+  * New upstream release
+  * Switched to libreadline-dev dependency (closes: #553738)
+  * Various fixes to the build system, policy updates, and switch to policy
+    versio n 3.8.3
+
+ -- Robert Lemmen <robertle@semistable.com>  Mon, 04 Jan 2010 10:15:49 +0000
+
+cgdb (0.6.4-4) unstable; urgency=low
+
+  * Rebuiling against libncursesw5 for wide character support
+
+ -- Robert Lemmen <robertle@semistable.com>  Wed, 03 Dec 2008 10:29:10 +0000
+
+cgdb (0.6.4-3) unstable; urgency=low
+
+  * Fixed implicit pointer conversion (closes: #422300)
+
+ -- Robert Lemmen <robertle@semistable.com>  Mon, 16 Jun 2008 20:10:10 +0100
+
+cgdb (0.6.4-2) unstable; urgency=low
+
+  * Fixed installation of info page (closes: #480179)
+  * Clean target fixed to not ignore errors in debian/rules
+  * Added Homepage field to control file (closes: #480010), and
+    to manual page (closes: #451824)
+  * Bumped standards version
+
+ -- Robert Lemmen <robertle@semistable.com>  Sun, 15 Jun 2008 19:30:30 +0100
+
+cgdb (0.6.4-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Robert Lemmen <robertle@semistable.com>  Thu,  3 May 2007 16:42:05 +0200
+
+cgdb (0.6.3-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Robert Lemmen <robertle@semistable.com>  Tue, 11 Jul 2006 17:17:25 +0200
+
+cgdb (0.6.2-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Robert Lemmen <robertle@semistable.com>  Tue, 11 Apr 2006 10:20:45 +0200
+
+cgdb (0.6.1-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Robert Lemmen <robertle@semistable.com>  Thu, 23 Mar 2006 10:57:39 +0100
+
+cgdb (0.6.0-1) unstable; urgency=low
+
+  * New upstream release (Closes: #343206)
+
+ -- Robert Lemmen <robertle@semistable.com>  Tue, 31 Jan 2006 13:27:28 +0100
+
+cgdb (0.5.3-2) unstable; urgency=low
+
+  * Builds against libreadline5 now (Closes: #326380)
+
+ -- Robert Lemmen <robertle@semistable.com>  Wed,  7 Sep 2005 11:07:43 +0200
+
+cgdb (0.5.3-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Robert Lemmen <robertle@semistable.com>  Thu, 11 Aug 2005 11:23:30 +0200
+
+cgdb (0.5.2-1) unstable; urgency=low
+
+  * New upstream release:
+  * Fixes hang on some platforms
+  * updates config.sub and config.guess (Closes:#277346)
+  * fixes the build system (DESTDIR and stuff)
+
+ -- Robert Lemmen <robertle@semistable.com>  Sun, 22 May 2005 13:50:35 +0200
+
+cgdb (0.5.1-1) unstable; urgency=low
+
+  * New upstream release:
+  * Obsoletes the "b" and "f" commands
+  * :edit included that reloads the current source (Closes: #296770)
+  * Many bugs, memory leaks and crashes fixed (Closes: #228602)
+
+ -- Robert Lemmen <robertle@semistable.com>  Sun,  3 Apr 2005 15:29:55 +0200
+
+cgdb (0.5.0-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Robert Lemmen <robertle@semistable.com>  Fri, 16 Jul 2004 18:27:56 +0200
+
+cgdb (0.4.2-2) unstable; urgency=low
+
+  * fixed build problem (closes: #256213)
+
+ -- Robert Lemmen <robertle@semistable.com>  Thu,  1 Jul 2004 13:28:55 +0200
+
+cgdb (0.4.2-1) unstable; urgency=low
+
+  * New upstream release (bug fixes only)
+
+ -- Robert Lemmen <robertle@semistable.com>  Tue, 15 Jun 2004 19:41:25 +0200
+
+cgdb (0.4.1-1) unstable; urgency=low
+
+  * New upstream release (closes: #218321)
+
+ -- Robert Lemmen <robertle@semistable.com>  Tue, 27 Apr 2004 14:34:56 +0200
+
+cgdb (0.4.0-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Robert Lemmen <robertle@semistable.com>  Wed, 29 Oct 2003 10:32:05 +0100
+
+cgdb (0.3.4-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Robert Lemmen <robertle@semistable.com>  Fri, 15 Aug 2003 15:45:41 +0200
+
+cgdb (0.3.3a-1) unstable; urgency=low
+
+  * Initial Release. (closes: #201755)
+
+ -- Robert Lemmen <robertle@semistable.com>  Fri, 18 Jul 2003 19:06:55 +0200
+
